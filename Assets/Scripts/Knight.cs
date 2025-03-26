@@ -28,7 +28,8 @@ public class Knight : MonoBehaviour
             animator.SetTrigger("attack");
             canRun = false;
         }
-       if (canRun == true)
+       
+        if (canRun == true)
         {
             transform.position += transform.right * direction * speed * Time.deltaTime;
 
