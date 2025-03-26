@@ -18,6 +18,6 @@ public class carrot : MonoBehaviour
     }
     public void CarLerper()
     {
-        Vector2.Lerp
+        //ector2.Lerp
     }
 }
