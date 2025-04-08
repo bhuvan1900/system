@@ -99,4 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   umspeed: 7
   umcircle: 1
+  ahrihorizontalcircle: 1
   ahri: {fileID: 0}
+  ysize: 0.5
