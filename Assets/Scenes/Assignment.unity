@@ -122,6 +122,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &162726715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162726716}
+  - component: {fileID: 162726717}
+  m_Layer: 0
+  m_Name: shard spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &162726716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162726715}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.42, y: -3.73, z: 0.02966126}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &162726717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162726715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9555f36d9ebbdf42bbeddf8fb3c0139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  putshardhere: {fileID: 2461518328098014396, guid: 3d9b16d83dd14bc4d9b3756d825af776, type: 3}
+  shardtimer: 0
+  shardtimepassedfromlastspawn: 3
+  ahri2: {fileID: 1185730146}
+  shardcounter: 0
+  magnus: {fileID: 8309463761383606840, guid: f7117ec6f5bdf944bb5f0d42f24e8888, type: 3}
+  shardstospawn: 3
 --- !u!1 &1138467295
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,3 +676,4 @@ SceneRoots:
   - {fileID: 1246103560}
   - {fileID: 1354319515}
   - {fileID: 2036523160}
+  - {fileID: 162726716}
