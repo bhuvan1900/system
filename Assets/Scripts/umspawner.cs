@@ -31,7 +31,8 @@ public class umspawner : MonoBehaviour
         ultramarines um = newum.GetComponent<ultramarines>();
         if (um != null)
         {
-            um.ahri = ahri2;
+            um.ahri = ahri2;   
         }
+        Destroy(newum, 5f);
     }
 }
